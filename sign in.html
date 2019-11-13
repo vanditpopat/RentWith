@@ -1,0 +1,92 @@
+<html>
+<style type="text/css">
+body{
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana,sans-serif;
+	font-weight: normal;
+	overflow-x: hidden;
+}
+img{
+margin-left: 10vw;
+margin-top: 40vh;
+width:27vw;
+}
+
+div{
+position: relative;
+margin-left: 62vw;
+margin-top: -45vh;
+margin-bottom: 20vh;
+}
+a{
+	text-decoration: none;
+	color: #00ff00;
+	font-size: 1em;
+}
+form{
+	font-size: 1.2em;
+
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]
+{
+	width:20vw;
+	margin-top: 1vh;
+	padding: 0.5vh;
+	box-sizing: border-box;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+}
+
+#Sign{
+background-color: #00ff00;
+width: 5vw;
+height: 5vh;
+border-style: none;
+font-size: 1em;
+}
+</style>
+<body>
+	
+<img src="RentWith logo.png">
+<div class="form">
+<h1>Sign In</h1>
+<form method="POST" action="reg.php">
+First name <br><input type="text" name="fname"> <br> <Br>
+Last name <br><input type="text" name="lname"> <br> <Br>
+Username <br><input type="text" name="user"> <br> <Br>
+Password <br><input type="password" name="pwd"> <br><br>
+Email <br><input type="text" name="email"> <br> <Br>
+location<br><input type="text" name="location"><br><br>
+
+Gender<br>
+<input type="radio" name="gender" value="male" style="margin-top: 2vh">Male  
+<input type="radio" name="gender" value="female" style="margin-left: 2vw">Female 
+<input type="radio" name="gender" value="transgender" style="margin-left: 2vw" >Transgender<br><br>
+Age <br><input type="text" name="age"> <br> <Br>
+Contact <br><input type="text" name="contact"> <br> <Br>
+
+Marital Status<br>
+<input type="radio" name="maritalstatus" value="married" style="margin-top: 2vh">Married  
+<input type="radio" name="maritalstatus" value="un-married" style="margin-left: 2vw" >Un-married<br><br>
+
+Occupation<br>
+<input type="radio" name="occupation" value="job" style="margin-top: 2vh">Job  
+<input type="radio" name="occupation" value="business" style="margin-left: 2vw">Business 
+<input type="radio" name="occupation" value="studying" style="margin-left: 2vw" >Studying<br><br>
+Budget <br><input type="text" name="budget"> <br> <Br>
+<br><br>
+<!--Service: <input type="checkbox" name="c" value="3">excellent
+<input type="checkbox" name="c" value="2"> satisfactory
+<input type="checkbox" name="c" value="1"> poor
+<br> <Br>
+-->
+<input type="Submit" Value="Sign In" id="Sign" name="submit">
+<br>
+<!--<a href="login.html">Login</a>-->
+</form>
+</div>
+
+</body>
+</html>
